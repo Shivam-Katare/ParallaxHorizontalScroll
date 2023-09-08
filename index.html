@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic' rel='stylesheet' type='text/css'>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include Lightbox2 JavaScript (after jQuery) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <!-- Include Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <title>Parallax Horizontal Scrolling</title>
+</head>
+
+<body>
+  <div class="external">
+    <div class="horizontal-scroll-wrapper">
+      <div class="img-wrapper slower" >
+        <a href="https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" data-lightbox="my-image" data-title="Lake"><img
+            src="https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </a>
+    </a>
+      </div>
+
+      <div class="img-wrapper faster">
+        <a href="https://images.unsplash.com/photo-1513689559427-a303dfc617d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHJhaW5pbmclMjByb2FkJTIwd2FsbHBhcGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="Rainy Road">
+          <img
+            src="https://images.unsplash.com/photo-1513689559427-a303dfc617d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHJhaW5pbmclMjByb2FkJTIwd2FsbHBhcGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower vertical">
+        <a href="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_640.jpg" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="Sunset Clouds">
+          <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_640.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower slower-down">
+        <a href="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_640.jpg" target="_blank" rel="noopener" data-lightbox="my-image" data-title="River">
+          <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_640.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper">
+        <a href="https://e1.pxfuel.com/desktop-wallpaper/217/228/desktop-wallpaper-world-beautiful-places-most-beautiful-places-on-earth-thumbnail.jpg" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="Snowy Water">
+          <img
+            src="https://e1.pxfuel.com/desktop-wallpaper/217/228/desktop-wallpaper-world-beautiful-places-most-beautiful-places-on-earth-thumbnail.jpg"
+            alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower">
+        <a href="https://cdn.pixabay.com/photo/2017/04/10/15/04/flowers-2218771_640.jpg" target="_blank" rel="noopener" data-lightbox="my-image" data-title="Blossoms">
+          <img src="https://cdn.pixabay.com/photo/2017/04/10/15/04/flowers-2218771_640.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper faster1">
+        <a href="https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlJTIwd2FsbHBhcGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="WaterFall">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1675448891094-0f3acc556fdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlJTIwd2FsbHBhcGVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower slower2">
+        <a href="https://images.unsplash.com/photo-1433477077279-9354d2d72f6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHN1bnJpc2V8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="SunSet">
+          <img
+            src="https://images.unsplash.com/photo-1433477077279-9354d2d72f6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHN1bnJpc2V8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper">
+        <a href="https://images.unsplash.com/photo-1608306204610-5068f6b29ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXIlMjBmYWxsfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="Mountain Waterfall">
+          <img
+            src="https://images.unsplash.com/photo-1608306204610-5068f6b29ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXIlMjBmYWxsfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower">
+        <a href="https://cdn.pixabay.com/photo/2014/01/22/19/44/flower-field-250016_640.jpg" target="_blank"
+          rel="noopener" data-lightbox="my-image" data-title="Rainbow Flowers">
+          <img src="https://cdn.pixabay.com/photo/2014/01/22/19/44/flower-field-250016_640.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="img-wrapper slower last">
+        <a href="https://cdn.pixabay.com/photo/2016/07/28/08/50/sunbeams-1547273_640.jpg" target="_blank" rel="noopener" data-lightbox="my-image1" data-title="Beautiful Morning">
+          <img src="https://cdn.pixabay.com/photo/2016/07/28/08/50/sunbeams-1547273_640.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <p class="scroll-info" style="display: grid;">Scroll Down</p>
+    <header style="display: grid; justify-items: center;">
+      <p>Made with ❤ by <a href="" target="_blank">Shivam Katare. </a> Inspired by <a href="https://codepen.io/pehaa/pen/zYxbxQg" target="_blank">Paulina Hetman
+      </a></p>
+    </header>
+  </div>
+  <script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+</script>
+</body>
+
+</html>
